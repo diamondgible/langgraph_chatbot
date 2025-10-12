@@ -5,6 +5,7 @@ langgraph==0.6.10
 langgraph-checkpoint==2.1.2
 langgraph-prebuilt==0.6.4
 langgraph-sdk==0.2.9
+langgraph-checkpoint-sqlite==2.0.11
 ollama==0.6.0
 python-dotenv==1.1.1
 requests==2.32.5

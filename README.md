@@ -26,7 +26,9 @@ pip install -r requirements.txt
 
 3. Configure environment variables
 
-If the backend uses any external API keys or configuration, create a `.env` file in the project root and add variables such as:
+Create a `.env` file from `.env.sample` in the project root and update relevant variables with your keys.
+
+Optionally if your backend uses any external API keys or configuration, update the `.env` file and add variables such as:
 
 ```
 # .env (example)
