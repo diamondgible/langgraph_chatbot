@@ -1,4 +1,5 @@
 import uuid
+# import time
 import streamlit as st
 from langgraph_database_backend_generic_provider_integrated import chatbot, retrieve_all_threads
 from langchain_core.messages import HumanMessage
@@ -86,6 +87,8 @@ if user_input:
             ):
                 # Check if this is an AI message chunk with content
                 if hasattr(message_chunk, 'content') and message_chunk.content:
+                    # # Add delay to make streaming more readable
+                    # time.sleep(0.05)  # 50ms delay between chunks
                     # Yield the content directly - LangGraph handles the streaming properly
                     yield message_chunk.content
         
