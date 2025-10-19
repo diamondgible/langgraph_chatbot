@@ -1,6 +1,14 @@
-__pycache__/
 venv/
+__pycache__/
+langchain_gemini/
+.env
 chatbot.db
 chatbot.db-shm
 chatbot.db-wal
-.env
+check_rate_limit.py
+decode_timestamp.py
+test_chat_gemini.py
+langgraph_database_backend_gemini_integrated.py
+streamlit_database_frontend_gemini_integrated.py
+langgraph_database_backend_gemini_integrated_dep.py
+streamlit_database_frontend_gemini_integrated_dep.py
