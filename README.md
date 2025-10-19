@@ -384,14 +384,6 @@ python test_chat_generic.py
 
 This will test both direct API calls and the LangChain integration.
 
-### Model Comparison
-
-| Provider | Model | Use Case | Pros | Cons |
-|----------|-------|----------|------|------|
-| Ollama | Llama 3.1 8B | Local development | Free, private, fast | Requires local resources |
-| Ollama | Llama 3.1 70B | High-quality responses | Very capable | High resource requirements |
-| Generic API | Various | Production deployment | Flexible, scalable | API costs, internet required |
-
 ## 📋 Dependencies
 
 The project uses the following key dependencies:
